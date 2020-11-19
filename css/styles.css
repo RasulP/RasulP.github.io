@@ -1,0 +1,735 @@
+/* Font styles */
+
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.2em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1.17px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1.17px;
+    color: #000000;
+    opacity: 1;
+}
+
+p {
+    /*  font-family: "Neuzeit Grotesk";*/
+    font-family: "Poppins", sans-serif;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+
+/*Section Header Style*/
+
+.section-header {
+    margin: 60px;
+}
+
+
+/* -------------------------------------- */
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.fullheight {
+    min-height: 100vh;
+}
+
+.subSect {
+    height: 50%;
+}
+
+
+/* --------------------Section Full Styling ------------------ */
+
+.header {
+    /*-----------Header Styling ------------- */
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #000c15;
+    background-image: url("/images/cirrus_clouds_darker.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header>div> {
+    width: 70%;
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 10px;
+    float: left;
+}
+
+.logo {
+    /*-----------Header Styling ------------- */
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+    /* height: 100%; */
+    /* top: 0; */
+    /* left: 0; */
+    /* padding-left: 30px; */
+    float: left;
+}
+
+.logo-icon {
+    /*-----------Header Styling ------------- */
+    float: left;
+    width: 300px;
+    margin-top: 21px;
+    margin-left: 21px;
+    /* position: relative; */
+    /* margin: 10px 15px 15px 10px; */
+}
+
+
+/* -----------------------Navigation bar styles------------- */
+
+ul.navbar {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    white-space: nowrap;
+    /*Font Style */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.navbar {
+    order: 4;
+}
+
+ul.navbar li {
+    float: left;
+    position: relative;
+}
+
+ul.navbar li a {
+    transition: color 0.2s linear;
+    font-size: 18px;
+}
+
+ul.navbar li:hover a {
+    color: #448c9a;
+}
+
+ul.navbar li a {
+    padding: 21px;
+    color: #ffffff;
+    text-decoration: initial;
+}
+
+.trial {
+    /*-----------Header Styling ------------- */
+    width: 120px;
+    height: 30px;
+    stroke: none;
+    border: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    color: #80808054;
+}
+
+.subBanner {
+    /*-----------Header Styling ------------- */
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    margin-left: 5%;
+    max-width: 60%;
+    margin-right: 5%;
+    font-size: xx-large;
+    color: white;
+}
+
+.subBanner>p {
+    /*-----------Header Styling ------------- */
+    padding-top: 0px;
+    padding-right: 4%;
+    padding-bottom: 0px;
+    font-size: large;
+}
+
+
+/* -------------------Plnas and Priicng Section Styling---------------------------------- */
+
+.plans {
+    /*-----------Header Styling ------------- */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.price-box {
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 19%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.trial-p {
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    stroke: none;
+    border: none;
+    width: 100%;
+}
+
+#pro {
+    /*-----------Header Styling ------------- */
+    font-size: 1.8em;
+    letter-spacing: 1.14px;
+    color: #6083e4;
+    opacity: 1;
+    margin-top: 0px;
+}
+
+#team {
+    /*-----------Header Styling ------------- */
+    font-size: 1.8em;
+    letter-spacing: 1.14px;
+    color: #e49060;
+    opacity: 1;
+    margin-top: 0px;
+}
+
+#ent {
+    /*-----------Header Styling ------------- */
+    font-size: 1.8em;
+    letter-spacing: 1.14px;
+    color: #e460b3;
+    opacity: 1;
+    margin-top: 0px;
+}
+
+#P {
+    background-color: #6083e4;
+}
+
+#npTitle {
+    width: 500px;
+}
+
+#NP {
+    background: #6083e4 0% 0% no-repeat padding-box;
+    border: 1px solid #80b0ff;
+    opacity: 1;
+}
+
+#non-profit {
+    width: 66%;
+}
+
+
+/* -----------------Servies Section Styling------------------------- */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--unnamed-color-707070);
+    background-color: #e49060;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* padding: 2%; */
+    width: 100%;
+    /* height: 50%;*/
+}
+
+.row-2 {
+    justify-content: space-between;
+}
+
+.s-image {
+    width: 114px;
+}
+
+
+/* images and text icons */
+
+.s-item {
+    text-align: center;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25%;
+}
+
+.s-title {
+    /* margin-left: 7%; */
+    margin-bottom: 0px;
+    color: white;
+    font-size: larger;
+}
+
+.s-text {
+    margin-left: 5%;
+    padding: 8%;
+    padding-top: 0;
+    color: white;
+    font-size: small;
+    text-align: left;
+}
+
+#data-icon {
+    margin-top: 10%;
+}
+
+
+/* --------------------srvered setion css */
+
+.served {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.s-quote {
+    padding-left: 5%;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 60%;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* arrow colums--------------------------- */
+
+.column50 {
+    width: 50%;
+    position: relative;
+    float: left;
+    height: 50%;
+    color: white;
+}
+
+.column60 {
+    width: 60%;
+    position: relative;
+    float: left;
+    color: white;
+    height: 50%;
+}
+
+.column70 {
+    width: 70%;
+    position: relative;
+    float: left;
+    height: 50%;
+    color: white;
+}
+
+
+/* -------------arrow colums--------------------------- */
+
+
+/* --------Business logos -------------------------- */
+
+.s-column50 {
+    /* margin-bottom: 15%; */
+    width: 50%;
+    height: 50%;
+    /* height: 5%; */
+    /* background-color: tomato; */
+    position: relative;
+    float: left;
+    /* text-align: center; */
+    color: black;
+}
+
+.s-column40 {
+    /* margin-bottom: 15%; */
+    width: 40%;
+    height: 50%;
+    /* height: 5%; */
+    /* background-color: tomato; */
+    position: relative;
+    float: left;
+    /* text-align: center; */
+    color: black;
+}
+
+.s-column30 {
+    /* margin-bottom: 15%; */
+    width: 30%;
+    height: 50%;
+    /* height: 5%; */
+    /* background-color: tomato; */
+    position: relative;
+    float: left;
+    /* text-align: center; */
+    color: black;
+}
+
+
+/* Business logos --------------------------------------- */
+
+.bar {
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: auto;
+}
+
+
+/* ----------------quote text formatting------------------- */
+
+.bottom-left {
+    margin-bottom: 20px;
+    position: absolute;
+    top: 24%;
+    left: 36px;
+}
+
+.s-logo {
+    /* padding-top: 45px; */
+    padding-left: 14px;
+    width: 350px;
+}
+
+
+/* -------------App Download Sub-section----------------------------*/
+
+.app {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #000c15;
+    background-image: url("/images/anydevicefilter.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+
+/* -------------------Contct formating ------------------------------------*/
+
+.t-column50 {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    float: left;
+    color: white;
+}
+
+.st-column50 {
+    padding-top: 5%;
+    /* padding-left: 10%; */
+    width: 30%;
+    height: 50%;
+    /* height: 5%; */
+    /* background-color: tomato; */
+    position: relative;
+    float: left;
+    /* text-align: center; */
+    color: black;
+}
+
+.t-quote {
+    padding-left: 60px;
+    /* color: var(--unnamed-color-ffffff); */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    max-width: 90%;
+}
+
+.free-t {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: DodgerBlue; */
+    width: 100%;
+    height: 100%px;
+    background-color: #60b3e4;
+}
+
+.s-trial {
+    width: 200px;
+    height: 55px;
+    color: white;
+    stroke: none;
+    border: none;
+    background-color: #e49060;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+}
+
+
+/* ------------------------------------------------------------- */
+
+#contact {
+    padding: 0;
+}
+
+.contact-sect {
+    background-color: #ffffff;
+    margin-bottom: 33%;
+}
+
+.c-column50 {
+    width: 50%;
+    height: 638px;
+    padding-bottom: 122px;
+    padding-right: 71px;
+    position: relative;
+    float: left;
+    background-color: #e49060;
+}
+
+.c-quote {
+    padding-left: 200px;
+    padding-top: 250px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.sc-column50 {
+    padding-top: 5%;
+    width: 30%;
+    height: 50%;
+    position: relative;
+    float: left;
+    color: black;
+    padding: 40px;
+    padding-top: 180px;
+}
+
+.sc-quote {
+    text-align: left;
+    letter-spacing: 1.12px;
+    color: #ffffff;
+    opacity: 1;
+    padding-left: 200px;
+}
+
+.c-input {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 36px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 0.68;
+}
+
+.sub {
+    background-color: #6083e4;
+    width: 173px;
+    height: 49px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    opacity: 1;
+}
+
+
+/* ----------------------------------------------------- */
+
+.lang-sect {
+    background-color: #60b3e4;
+}
+
+.langTitle {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.l-title {
+    font-size: xx-large;
+    color: #ffffff;
+    /* font-family; */
+}
+
+
+/* ----------------px---------------------------------------- */
+
+.footer {
+    height: 300px;
+    background-color: #000000;
+}
+
+.f-column50 {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+    color: white;
+}
+
+.sf-column50 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    position: relative;
+    float: left;
+}
+
+
+/* ----------------------------------------------- */
+
+#sub-logo {
+    /* padding-left: 30px; */
+    padding-top: 30px;
+    width: 171.733px;
+    height: 60.333px;
+}
+
+#e-handle {
+    width: 200px;
+    letter-spacing: 1.12px;
+    color: #ffffff;
+    opacity: 1;
+    padding-left: 30px;
+}
+
+#p-number {
+    width: 200px;
+    letter-spacing: 1.12px;
+    color: #ffffff;
+    opacity: 1;
+    padding-left: 30px;
+}
+
+
+/* -------------------------------------------------- */
+
+#social-icon-div {
+    margin-left: 10px;
+}
+
+.s-icon {
+    padding: 10px;
+}
+
+.map-name {
+    margin-bottom: 0;
+    padding-left: 36px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.siteMaps {
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.map-items {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.map-li {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 10px;
+    margin-right: 50px;
+}
